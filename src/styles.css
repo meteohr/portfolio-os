@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+}
+
+.desktopIcon:focus {
+  background-color: #000281;
+}
