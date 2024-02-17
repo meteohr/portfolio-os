@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { Updater } from "use-immer";
 import { TileInfo } from "../../FloodIt";
 import Tile from "../tile/Tile";

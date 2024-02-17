@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import ColorProvider from "./components/colorProvider/ColorProvider";
 import { colors } from "./settings";
@@ -15,7 +16,7 @@ function FloodIt() {
   const tiles: TileInfo[][] = [];
 
   for (let rowIndex = 0; rowIndex < cols; rowIndex++) {
-    const row = [];
+    const row: TileInfo[] = [];
     for (let colIndex = 0; colIndex < rows; colIndex++) {
       row.push({
         color: colors[Math.floor(Math.random() * colors.length)],
