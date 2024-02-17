@@ -20,6 +20,6 @@
 
 ### Technical Improvements
 
-- [ ] Vite
+- [x] Vite
 - [ ] Turborepo
 - [ ] latest Typescript / React versions

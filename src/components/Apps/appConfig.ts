@@ -13,11 +13,11 @@ export const apps: AppConfig[] = [
   {
     appName: AppNames.ABOUT,
     title: "About",
-    image: "./assets/help_book_big-0.png",
+    image: "/src/assets/help_book_big-0.png",
   },
   {
     appName: AppNames.CREDITS,
     title: "Credits",
-    image: "./assets/script_file_blue-1.png",
+    image: "/src/assets/script_file_blue-1.png",
   },
 ];
