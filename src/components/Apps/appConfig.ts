@@ -1,6 +1,7 @@
 enum AppNames {
   CREDITS = "credits",
   ABOUT = "about",
+  FLOOD_IT = "flood-it",
 }
 
 interface AppConfig {
@@ -19,5 +20,10 @@ export const apps: AppConfig[] = [
     appName: AppNames.CREDITS,
     title: "Credits",
     image: "/src/assets/script_file_blue-1.png",
+  },
+  {
+    appName: AppNames.FLOOD_IT,
+    title: "Flood It",
+    image: "/src/assets/defragment-0.png",
   },
 ];

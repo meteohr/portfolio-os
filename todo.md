@@ -2,6 +2,7 @@
 
 - [x] Make windows focus-able
 - [x] Bring windows to foreground on focus
+- [ ] Open Windows at better location
 - [ ] Make windows resize-able
 - [ ] Maximize windows
 - [x] Desktop Icons for apps

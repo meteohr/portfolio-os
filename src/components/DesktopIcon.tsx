@@ -27,7 +27,6 @@ export const DesktopIcon: FC<DesktopIconProps> = ({
     if (closedWindows.includes(title)) {
       const indexOfAppToRemove = closedWindows.indexOf(title);
       closedWindows.splice(indexOfAppToRemove, 1);
-      console.log(closedWindows);
       setClosedWindows([...closedWindows]);
     }
     setActiveWindow(title);

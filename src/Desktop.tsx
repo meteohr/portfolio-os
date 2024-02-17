@@ -4,6 +4,7 @@ import { apps } from "./components/Apps/appConfig";
 import { Credits } from "./components/Apps/Credits";
 import { DesktopIcon } from "./components/DesktopIcon";
 import { DesktopWindow } from "./components/DesktopWindow";
+import FloodIt from "./components/Apps/FloodIt/FloodIt";
 
 export const Desktop: FC = () => {
   const [activeWindow, setActiveWindow] = useState<undefined | string>();
@@ -13,6 +14,7 @@ export const Desktop: FC = () => {
   const getWindowFromName = (title: string) => {
     if (title === "Credits") return <Credits />;
     if (title === "About") return <About />;
+    if (title === "Flood It") return <FloodIt />;
   };
 
   const renderedIcons = apps.map((app) => (

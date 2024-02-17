@@ -28,7 +28,6 @@ export const DesktopWindow: FC<PropsWithChildren<DesktopWindowProps>> = ({
         style={{
           zIndex: isActiveWindow ? 2 : 1,
           position: "absolute",
-          width: 300,
         }}
         className="window"
       >
