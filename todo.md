@@ -1,4 +1,4 @@
-### Doors 98 features
+### Portfolio OS features
 
 - [x] Make windows focus-able
 - [x] Bring windows to foreground on focus
@@ -16,6 +16,7 @@
 - [ ] Fourth app: "Notepad"
 - [ ] Sound effects
 - [ ] Wallpaper
+- [ ] Splash Screen/ Loading Screen
 
 ### Technical Improvements
 

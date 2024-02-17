@@ -1,4 +1,4 @@
-import React, { FC, PropsWithChildren, useState } from "react";
+import React, { FC, PropsWithChildren } from "react";
 import Draggable from "react-draggable";
 
 interface DesktopWindowProps {
